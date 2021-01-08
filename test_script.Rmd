@@ -16,7 +16,7 @@ library(tidyverse)
 sw_df <- starwars
 
 ggplot(sw_df, aes(x = height, y = mass)) +
-  geom_point(color = "purple")
+  geom_point(color = "green")
 
 ```
 
